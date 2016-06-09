@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+
+* {
+    -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+  background: rgb(53, 97, 164);
+}
+h1 {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+h2 {
+  text-align: center;
+  margin: 2em auto 0 auto;
+  font-size: 2em;
+  color: white;
+}
+h3 {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+section {
+  margin: auto auto 0 auto;
+  padding: 2em 2em 0 2em;
+  font-size: 1.7em;
+  color: white;
+  background: none;
+}
+button {
+  /*background: rgb(60, 60, 61);*/
+  background: none;
+  display: block;
+  padding: 0.7em;
+  min-width: 10em;
+  text-decoration: none;
+  border: 3px solid white;
+  margin: 0.5em;
+}
+.buttons {
+  margin: 0.5em auto;
+  display: block;
+}
+#theQuestion {
+  margin: auto;
+  text-align: center;
+}
+.contain {
+  width: auto;
+  margin: 2em auto;
+}
+.playerScore {
+  border: 2px solid white;
+  padding: 0.5em;
+  width: 10em;
+  height: 4em;
+  margin: 0 1em;
+  text-align: center;
+  color: white;
+  background: rgb(78, 77, 77);
+  border: none;
+}
+footer {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+#reset {
+  color: white;
+  margin: 0 auto 0.5em auto;
+  font-size: 1.5em;
+}
+#reset:hover {
+  color: rgb(240, 252, 3);
+}
+#player1 {
+  float: left;
+}
+#player2 {
+  float: right;
+}
+
+@media screen and (max-width: 820px) {
+  #player2 {
+    float: left;
+  }
+  .playerScore {
+    width: 100%;
+    margin: 0.5em 0;
+  }
+}
